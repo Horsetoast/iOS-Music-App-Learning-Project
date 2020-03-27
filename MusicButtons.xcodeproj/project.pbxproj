@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1C55D6242C77E80039CA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55D5242C77E80039CA93 /* Assets.xcassets */; };
+		6B1C55DB242C782C0039CA93 /* bass1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55D8242C782C0039CA93 /* bass1.wav */; };
+		6B1C55DC242C782C0039CA93 /* bass2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55D9242C782C0039CA93 /* bass2.wav */; };
+		6B1C55DD242C782C0039CA93 /* bass3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55DA242C782C0039CA93 /* bass3.wav */; };
+		6B1C55DF242C79C40039CA93 /* SoundLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C55DE242C79C40039CA93 /* SoundLoop.swift */; };
+		6B1C55E3242D0F8C0039CA93 /* drum2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55E0242D0F8B0039CA93 /* drum2.wav */; };
+		6B1C55E4242D0F8C0039CA93 /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55E1242D0F8B0039CA93 /* drum1.wav */; };
+		6B1C55E5242D0F8C0039CA93 /* drum3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C55E2242D0F8B0039CA93 /* drum3.wav */; };
+		6B1C55E7242D0FBC0039CA93 /* SoundBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C55E6242D0FBC0039CA93 /* SoundBlock.swift */; };
 		6B56FA5D242B95D70050A7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56FA5C242B95D70050A7D2 /* AppDelegate.swift */; };
 		6B56FA5F242B95D70050A7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56FA5E242B95D70050A7D2 /* ViewController.swift */; };
 		6B56FA62242B95D70050A7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B56FA60242B95D70050A7D2 /* Main.storyboard */; };
-		6B56FA64242B95D90050A7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B56FA63242B95D90050A7D2 /* Assets.xcassets */; };
 		6B56FA67242B95D90050A7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B56FA65242B95D90050A7D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1C55D5242C77E80039CA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1C55D8242C782C0039CA93 /* bass1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bass1.wav; path = "../../../../Downloads/SAMPLESWAP/INSTRUMENTS (SINGLE SAMPLES)/Basses/bass1.wav"; sourceTree = "<group>"; };
+		6B1C55D9242C782C0039CA93 /* bass2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bass2.wav; path = "../../../../Downloads/SAMPLESWAP/INSTRUMENTS (SINGLE SAMPLES)/Basses/bass2.wav"; sourceTree = "<group>"; };
+		6B1C55DA242C782C0039CA93 /* bass3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bass3.wav; path = "../../../../Downloads/SAMPLESWAP/INSTRUMENTS (SINGLE SAMPLES)/Basses/bass3.wav"; sourceTree = "<group>"; };
+		6B1C55DE242C79C40039CA93 /* SoundLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundLoop.swift; sourceTree = "<group>"; };
+		6B1C55E0242D0F8B0039CA93 /* drum2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum2.wav; path = "../../../../Downloads/SAMPLESWAP/DRUMS (SINGLE HITS)/Electronic Hits/drum2.wav"; sourceTree = "<group>"; };
+		6B1C55E1242D0F8B0039CA93 /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum1.wav; path = "../../../../Downloads/SAMPLESWAP/DRUMS (SINGLE HITS)/Electronic Hits/drum1.wav"; sourceTree = "<group>"; };
+		6B1C55E2242D0F8B0039CA93 /* drum3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = drum3.wav; path = "../../../../Downloads/SAMPLESWAP/DRUMS (SINGLE HITS)/Electronic Hits/drum3.wav"; sourceTree = "<group>"; };
+		6B1C55E6242D0FBC0039CA93 /* SoundBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBlock.swift; sourceTree = "<group>"; };
 		6B56FA59242B95D70050A7D2 /* MusicButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B56FA5C242B95D70050A7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B56FA5E242B95D70050A7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B56FA61242B95D70050A7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B56FA63242B95D90050A7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B56FA66242B95D90050A7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B56FA68242B95D90050A7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,9 +51,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1C55D1242C74690039CA93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C55DE242C79C40039CA93 /* SoundLoop.swift */,
+				6B1C55E6242D0FBC0039CA93 /* SoundBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B1C55D7242C78020039CA93 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C55E1242D0F8B0039CA93 /* drum1.wav */,
+				6B1C55E0242D0F8B0039CA93 /* drum2.wav */,
+				6B1C55E2242D0F8B0039CA93 /* drum3.wav */,
+				6B1C55D8242C782C0039CA93 /* bass1.wav */,
+				6B1C55D9242C782C0039CA93 /* bass2.wav */,
+				6B1C55DA242C782C0039CA93 /* bass3.wav */,
+			);
+			path = "Sound Files";
+			sourceTree = "<group>";
+		};
 		6B56FA50242B95D70050A7D2 = {
 			isa = PBXGroup;
 			children = (
+				6B1C55D7242C78020039CA93 /* Sound Files */,
+				6B1C55D5242C77E80039CA93 /* Assets.xcassets */,
 				6B56FA5B242B95D70050A7D2 /* MusicButtons */,
 				6B56FA5A242B95D70050A7D2 /* Products */,
 			);
@@ -54,10 +94,10 @@
 		6B56FA5B242B95D70050A7D2 /* MusicButtons */ = {
 			isa = PBXGroup;
 			children = (
+				6B1C55D1242C74690039CA93 /* Models */,
 				6B56FA5C242B95D70050A7D2 /* AppDelegate.swift */,
 				6B56FA5E242B95D70050A7D2 /* ViewController.swift */,
 				6B56FA60242B95D70050A7D2 /* Main.storyboard */,
-				6B56FA63242B95D90050A7D2 /* Assets.xcassets */,
 				6B56FA65242B95D90050A7D2 /* LaunchScreen.storyboard */,
 				6B56FA68242B95D90050A7D2 /* Info.plist */,
 			);
@@ -122,8 +162,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1C55E5242D0F8C0039CA93 /* drum3.wav in Resources */,
+				6B1C55E3242D0F8C0039CA93 /* drum2.wav in Resources */,
+				6B1C55DD242C782C0039CA93 /* bass3.wav in Resources */,
 				6B56FA67242B95D90050A7D2 /* LaunchScreen.storyboard in Resources */,
-				6B56FA64242B95D90050A7D2 /* Assets.xcassets in Resources */,
+				6B1C55DB242C782C0039CA93 /* bass1.wav in Resources */,
+				6B1C55D6242C77E80039CA93 /* Assets.xcassets in Resources */,
+				6B1C55E4242D0F8C0039CA93 /* drum1.wav in Resources */,
+				6B1C55DC242C782C0039CA93 /* bass2.wav in Resources */,
 				6B56FA62242B95D70050A7D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1C55DF242C79C40039CA93 /* SoundLoop.swift in Sources */,
 				6B56FA5F242B95D70050A7D2 /* ViewController.swift in Sources */,
+				6B1C55E7242D0FBC0039CA93 /* SoundBlock.swift in Sources */,
 				6B56FA5D242B95D70050A7D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
